@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+.logo {
+  margin: 24px;
+  font-size: 14pt;
+}
+
+.logo h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+}
+
+.logo p {
+  width: 200px;
+}
+
+.loginZone nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.loginZone a {
+  color: #000;
+  margin: 40px 0 0 -10px;
+  text-decoration: none;
+  list-style: none;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.loginZone a:first-child {
+  background-color: #355245;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.loginZone a:last-child {
+  background-color: #e3e5d8;
+  color: #355245;
+  margin-left: 20px;
+}
+
+.hero {
+  margin-top: 20px;
+}
+
+.heroText {
+  margin-top: 380px;
+  position: absolute;
+  text-align: center;
+}
+
+.heroText input {
+  background-color: #355245;
+  color: #e3e5d8;
+  font-size: 12pt;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #000;
+}
+
+.about {
+  margin-top: 200px;
+}
+
+.about h1 {
+  font-size: 18pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about h2 {
+  width: 300px;
+  margin-left: 60px;
+}
+
+.featuresList {
+  margin: 150px 20px;
+  background-color: #e3e5d8;
+  width: 300px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.featuresList h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 15pt;
+}
+
+.featuresList li {
+  font-size: 12pt;
+  line-height: 40px;
+}
+
+.featuresDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  margin: 10px 30px;
+  display: flex;
+}
+
+.detailsText {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.details i {
+  font-size: 60pt;
+  margin-bottom: 10px;
+}

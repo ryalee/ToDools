@@ -1,0 +1,20 @@
+Cores Base do site/app (cores de "marca"): 
+** posso mudar depois
+* #101916
+* #355245
+* #afc1b6
+* #648374
+* #e3e5d8
+
+O que vai ter nesse projeto?
+-> 1 sistema de personalização (mudar cores da plataforma, fontes, etc (o que estiver ao meu alcance né rs));
+
+-> Ferramentas:
+ - Pagina de Tasks;
+ - Calendario que seja possivel fazer planejamentos semanais e mensais;
+ - Pagina para anotações que seja possível acrescentar várias coisas (semelhante a paginas do Notion);
+ - Se Possivel, implementar uma forma do usuario vincular sua conta spotify(ou outros apps de musicas) para acrescentar uma 'trilha sonora' para seu ambiente. >SE POSSIVEL!!!<
+
+-> Lembrar de:
+ - Interface 'limpa' e design minimalista (evitar ao máximo colocar muitas informações na tela);
+
