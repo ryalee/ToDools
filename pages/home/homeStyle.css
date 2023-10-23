@@ -74,6 +74,21 @@ header {
   border: 1px solid #000;
 }
 
+.buttonOptions {
+  display: none;
+  margin-left: -20px;
+}
+
+.buttonOptions.showed {
+  display: block;
+}
+
+.buttonOptions input:first-child {
+  background-color: #e3e5d8;
+  color: #355245;
+  margin-left: 20px;
+}
+
 .about {
   margin-top: 200px;
 }
@@ -126,4 +141,89 @@ header {
 .details i {
   font-size: 60pt;
   margin-bottom: 10px;
+}
+
+.appShop h2:first-child {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 90px;
+}
+
+.appShop .appArticles {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+}
+
+.appShop article{
+  margin-bottom: 30px;
+}
+
+.google {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-left: 20px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.google i {
+  font-size: 20pt;
+  margin-top: 10px;
+}
+
+.google h2, 
+.google h4 {
+  margin-left: 35px;
+}
+
+.google h4{
+  margin-top: -30px;
+}
+
+.iphone {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-left: 20px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.iphone i {
+  font-size: 24pt;
+  margin-top: 6px;
+}
+
+.iphone h2, 
+.iphone h4 {
+  margin-left: 35px;
+}
+
+.iphone h4{
+  margin-top: -36px;
+}
+
+.lastArticle {
+  text-align: center;
+  font-size: 14pt;
+  margin: 80px 0;
+}
+
+footer {
+  background-color: #355245;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 10pt;
+  font-weight: 500;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer p:last-child {
+  margin-top: 10px;
 }
