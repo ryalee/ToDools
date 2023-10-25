@@ -4,9 +4,64 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="loginStyle.css">
   <title>ToDools | Entre ou Cadastre-se</title>
 </head>
 <body>
-  
+  <header>
+    <div class="logo">
+      <h1>ToDools</h1>
+      <p>| The most complete To-Do Tools</p>
+    </div>
+  </header>
+
+  <div class="loginContainer">
+    <section class="signIn">
+      <h2>Login</h2>
+
+      <article class="loginOptions">
+        <img src="/images/login images/google.png" alt="">
+        <img src="/images/login images/facebook.png" alt="">
+        <img src="/images/login images/apple.png" alt="">
+      </article>
+
+      <form action="login">
+        <input type="email" placeholder="Your Email">
+        <input type="password" placeholder="Your Password">
+
+        <input type="button" value="Enter">
+
+       <p>Don't have an account? 
+        <a href="#signUp"><button onclick="changeLoginScreen()">Create Now</button></a>
+      </p>
+      </form>
+    </section>
+
+    <section id="signUp">
+      <h2>Register</h2>
+
+      <article class="loginOptions">
+        <p>Or login with:</p>
+
+        <img src="/images/login images/google.png" alt="">
+        <img src="/images/login images/facebook.png" alt="">
+        <img src="/images/login images/apple.png" alt="">
+      </article>
+
+      <form action="register">
+        <input type="email" placeholder="Your Email">
+        <input type="text" placeholder="Your Name">
+        <input type="password" placeholder="Create a password" class="passwordInput">
+        <i class="fa-solid fa-eye" onclick="showPassword()"></i>
+
+        <input type="button" value="Create Account">
+      </form>
+      
+    </section>
+  </div>
+
+<script src="script.js"></script>
 </body>
 </html>
